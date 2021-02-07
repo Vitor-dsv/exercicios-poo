@@ -1,0 +1,25 @@
+QUESTÃO 01: Explique a diferença entre objeto e classe, comente quais suas funções em um programa.
+Dê exemplos de Classes e Objetos.
+R: Classe é um conjunto de objetos distintos, porém com as mesmas características e compartamentos, e o objeto é o modelo de uma classe, é a representação de qualquer coisa, abstrata ou do mundo real.
+
+Exemplos de classe: 
+- Pessoa.
+- Animal.
+- Automóvel.
+- publicação.
+
+Exemplos de objeto:
+pessoa -> João.
+pessoa -> Maria.
+pessoa -> José.
+
+QUESTÃO 02: Qual a definição de generalização e especialização? Exemplifique as definições.
+R: A generalização é uma forma geral de definir uma classe, é colocar os membros de estado e comportamento que todos os objetos que se conformem com aquela especificação devem ter, não importa se ele seja de um tipo mais específico. Ou seja, ali consta as características essenciais de um grupo de classes que possuem algo em comum. Por definição o que é mais geral é uma classe base, uma classe mãe.
+A especialização é por definição uma classe derivada, filha. Ela possui características que só dizem respeita àquela classe. Ali há membros que são especiais para aquela classe.
+
+Exemplo: Véiculos pode ser uma classe generalizada, onde ela pode ser herdada por classes como Carro ou Moto, que são especializadas.
+
+QUESTÃO 03: O que é polimorfismo e sobrecarga de métodos? Como implementar?
+R: O Polimorfismo permite, em uma de suas metodologias de aplicação, que diferentes classes tenham métodos com a mesma assinatura (mesmo contrato), porém estes métodos (em suas respectivas classes) podem possuir comportamentos diferentes, de acordo à necessidade de cada classe que o implementa.
+A implementação do polimorfismo pode ser realizada fazendo uso de interfaces, ou classes abstratas, onde ocorrem apenas a implementação das assinaturas dos métodos, ou seja, do contrato. Desta forma o comportamento deve ser implementado nas classes concretas que implementam as interfaces ou estendem as classes abstratas.
+A herança diz respeito à extensibilidade de classes no modelo orientado a objetos. Quando se diz estender determinada classe, entende-se que uma nova classe será criada, contendo suas próprias propriedades e características e, agregando a esta nova classe as propriedades e características de outra já existente a qual é conhecida também como um classe Genérica (ou superclasse).
